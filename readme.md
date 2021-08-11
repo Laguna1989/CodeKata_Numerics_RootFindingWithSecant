@@ -16,7 +16,7 @@ the [Newton-Raphson method](https://github.com/Laguna1989/CodeKata_Numerics_Root
 
 ## The Secant Method
 
-TODO Animation
+![ani](https://user-images.githubusercontent.com/2394228/128999088-339f6a65-aa3e-4026-bca4-59eadbf87635.gif)
 
 We know that a function `f(x)` has a zero at `x'` close to two starting values `x0` and `x1`. The idea of the Secant
 methods is to calculate the secant, which touches `f(x)` at `x0` and `x1`. When compared to Newton-Raphson, the secant
