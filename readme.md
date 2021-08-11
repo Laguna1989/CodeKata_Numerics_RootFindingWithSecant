@@ -25,12 +25,12 @@ is used instead of the tangent to calculate the next iteration step.
 The slope of the secant is given by
 
 <img src="https://render.githubusercontent.com/render/math?math=d(x_0%2C%20x_1)%20%3D%20%5Cfrac%7Bf(x_1)%20-%20f(x_0)%7D%7Bx_1-x_0%7D">
-.
+
 
 This can be used in the actual calculation of the next iteration
 
 <img src="https://render.githubusercontent.com/render/math?math=x_2%20%3D%20x_1%20-%20%5Cfrac%7Bf(x_1)%7D%7Bd(x_0%2C%20x_1)%7D">
-.
+
 
 The iteration ends, when `f(x)` is smaller than the accepted error `delta`.
 
