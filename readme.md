@@ -49,14 +49,14 @@ The iteration ends, when `f(x)` is smaller than the accepted error `delta`.
 ## 1. Calculation of the secant slope
 
 First, implement the function to calculate the slope for the secant. The
-function `double calculate_secant_slope(std::function<double(double)> f, const double x0, const double x1)` can be found
-in the file `src/secant.cpp`. The tests in `tests/secant_slope_test.cpp` will help you with the implementation.
+function `double calculate_secant_slope(f, x0, x1)` can be found
+in the file `src/secant`. The tests in `tests/secant_slope_test` will help you with the implementation.
 
 ## Implementation of the Secant method
 
 Now it is time to actually implement the secant method. Implement the
-function `const double secant(std::function<double(double)> f, const double x0, const double x1, double delta)`
-in `src/secant.cpp`. The tests in `tests/rootfinding_secant_test.cpp` will help you with the implementation.
+function `const double secant(f, x0, x1, delta)`
+in `src/secant`. The tests in `tests/rootfinding_secant_test` will help you with the implementation.
 
 ## Things that can go wrong
 
